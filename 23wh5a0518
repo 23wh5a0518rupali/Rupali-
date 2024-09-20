@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: hsl(298, 37%, 45%);
+                background-image: url('https://example.com/background-image.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+
+            h3 {
+                color: white;
+            }
+
+            .form-container {
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 15px;
+                padding: 20px;
+                max-width: 500px;
+                margin: 50px auto;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .form-field {
+                margin: 10px 0;
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            button {
+                background-color: hsl(298, 37%, 45%);
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: hsl(298, 37%, 35%);
+            }
+
+            .radio-field {
+                margin: 10px 0;
+                padding: 10px;
+            }
+
+            .radio-field input {
+                margin-left: 10px;
+            }
+
+            center {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CODE HACK HACKATHON</h1>
+        <h1>REGISTER YOURSELF TO PARTICIPATE</h1>
+
+        <div class="form-container">
+            <h3>First Name:<input class="form-field" type="text" placeholder="Enter your first name"></h3>
+            <h3>Last Name:<input class="form-field" type="text" placeholder="Enter your last name"></h3>
+            <h3>Email:<input class="form-field" type="email" placeholder="Enter your email"></h3>
+            <h3>Password:<input class="form-field" type="password" placeholder="Enter your password"></h3>
+            <h3>Mobile Number:<input class="form-field" type="text" placeholder="Enter your mobile number"></h3>
+            <h3>Gender:
+                <div class="radio-field">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+            </h3>
+            <h3>University:<input class="form-field" type="text" placeholder="Enter your university"></h3>
+            <h3>Course:<input class="form-field" type="text" placeholder="Enter your course"></h3>
+            <h3>Current Year:<input class="form-field" type="text" placeholder="Enter your current year"></h3>
+            <h3>Grades of Previous Semester:<input class="form-field" type="text" placeholder="Enter your grades"></h3>
+
+            <center>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </center>
+        </div>
+    </body>
+</html>
